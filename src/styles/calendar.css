@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.calendar-screen {
+    display: flex;
+    flex-flow: column;
+    width: 100% !important;
+    height: 100vh;
+}
+
+.rbc-calendar {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-inline: 2rem;
+    padding-bottom: 2rem;
+}
+
+.rbc-active {
+    box-shadow: none !important;
+    background-color: #EAF6FF !important;
+}
+
+.rbc-active:hover {
+    box-shadow: none !important;
+    background-color: #c7e0f3 !important;
+}
+
+.rbc-btn-group button {
+    transition-timing-function: ease;
+    transition-duration: .3s;
+}
+
+.rbc-btn-group button:focus {
+    outline: none;
+}
+
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.btn-dele-event,
+.btn-new-event {
+    position: fixed;
+    bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-new-event {
+    right: 3rem;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    font-weight: 900;
+    width: 4rem;
+    aspect-ratio: 1;
+}
+
+.btn-dele-event {
+    left: 3rem;
+    font-size: 1rem;
+    font-size: 1rem;
+}
